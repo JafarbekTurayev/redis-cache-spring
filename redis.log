@@ -1,0 +1,19 @@
+2022-08-09 20:46:13.171  INFO 4600 --- [main] c.e.r.RedisCacheSpringApplicationTests   : Starting RedisCacheSpringApplicationTests using Java 11.0.8 on MSI with PID 4600 (started by Onecomputers in C:\PDP Lesson\Backend G2\redis-cache-spring)
+2022-08-09 20:46:13.173  INFO 4600 --- [main] c.e.r.RedisCacheSpringApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-08-09 20:46:13.788  INFO 4600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-09 20:46:13.836  INFO 4600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2022-08-09 20:46:14.377  INFO 4600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-09 20:46:14.430  INFO 4600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-08-09 20:46:14.579  INFO 4600 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-09 20:46:14.851  INFO 4600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-09 20:46:14.960  INFO 4600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-09 20:46:14.993  INFO 4600 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-08-09 20:46:15.542  INFO 4600 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-09 20:46:15.549  INFO 4600 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-09 20:46:16.219  WARN 4600 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-09 20:46:16.857  INFO 4600 --- [main] c.e.r.RedisCacheSpringApplicationTests   : Started RedisCacheSpringApplicationTests in 3.984 seconds (JVM running for 4.846)
+2022-08-09 20:46:17.001  INFO 4600 --- [main] lication$$EnhancerBySpringCGLIB$$f8568a4 : Saving users. Current user count is 0.
+2022-08-09 20:46:17.074  INFO 4600 --- [main] lication$$EnhancerBySpringCGLIB$$f8568a4 : Done saving users. Data: [User(id=1, name=Shubham, followers=2000), User(id=2, name=Pankaj, followers=29000), User(id=3, name=Lewis, followers=550)].
+2022-08-09 20:46:17.301  INFO 4600 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-09 20:46:17.304  INFO 4600 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-09 20:46:17.310  INFO 4600 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
